@@ -3,12 +3,19 @@
 
 $orange: #E65100;
 $light-blue: #0277BD;
+$red: #B71C1C;
 
 h1 {
   color: $orange;
 }
 
 ul {
+  &[vspacer] {
+    li {
+      padding-top: 2%;
+    }
+  }
+
   li {
     > strong {
       color: $light-blue;
@@ -16,6 +23,14 @@ ul {
 
     > p {
       line-height: 1;
+    }
+
+    em {
+      color: $red;
+    }
+
+    em ~ div {
+      padding-left: 2%;
     }
   }
 }
