@@ -8,6 +8,14 @@ h1 {
   color: $orange;
 }
 
-ul > li {
-  color: $light-blue;
+ul {
+  li {
+    > strong {
+      color: $light-blue;
+    }
+
+    > p {
+      line-height: 1;
+    }
+  }
 }

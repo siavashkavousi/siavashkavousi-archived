@@ -19,7 +19,15 @@
     {% include google-analytics.html %}
     {% endif %}
 
-    <link rel="stylesheet" href="{{'/public/css/cv.css' | relative_url }}">
+    {% if jekyll.environment == 'production' %}
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    {% else %}
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    {% endif %}
+
+    {{ page.head }}
 </head>
 
 
@@ -35,5 +43,13 @@
 
 {% include footer.html %}
 
+
+{% if jekyll.environment == 'production' %}
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+{% else %}
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+{% endif %}
 </body>
 </html>
