@@ -1,0 +1,20 @@
+{
+  "name": "personal-blog",
+  "homepage": "https://siavashkavousi.github.io",
+  "authors": [
+    "siavash <siavash.kavousi.sk@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
