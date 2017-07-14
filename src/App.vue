@@ -1,36 +1,30 @@
 <template>
-  <q-layout ref="layout" view="hHr LpR lFf" :right-breakpoint="1100">
+  <q-layout ref="layout">
     <!-- Header -->
     <q-toolbar slot="header">
-      <q-btn flat @click="$refs.layout.toggleLeft()">
-        <q-icon name="menu"/>
-      </q-btn>
       <q-toolbar-title>
         Siavash Kavousi
         <span slot="subtitle">personal website</span>
       </q-toolbar-title>
     </q-toolbar>
 
-    <div slot="left">
-      <q-list no-border link inset-separator>
-        <q-list-header>Essential Links</q-list-header>
-        <q-side-link item to="/cv">
-          <q-item-side icon="school"/>
-          <q-item-main label="Docs" sublabel="cv"/>
-        </q-side-link>
-        <q-side-link item to="/twitter">
-          <q-item-side icon="rss feed"/>
-          <q-item-main label="Twitter" sublabel="@siavash_kavousi"/>
-        </q-side-link>
-      </q-list>
+    <!--<div slot="left">-->
+    <!--<q-list no-border link inset-delimiter>-->
+    <!--<q-list-header>Essential Links</q-list-header>-->
+    <!--<q-item @click="launch('/cv/')">-->
+    <!--<q-item-side icon="school"/>-->
+    <!--<q-item-main label="CV"/>-->
+    <!--</q-item>-->
+    <!--<q-item @click="launch('https://twitter.com/siavash_kavousi')">-->
+    <!--<q-item-side icon="chat"/>-->
+    <!--<q-item-main label="Twitter" sublabel="@siavash_kavousi"/>-->
+    <!--</q-item>-->
+    <!--</q-list>-->
+    <!--</div>-->
+
+    <div class="layout-padding">
+      <router-view/>
     </div>
-    <router-view/>
-    <!-- Footer -->
-    <q-toolbar slot="footer">
-      <q-toolbar-title>
-        Layout Footer
-      </q-toolbar-title>
-    </q-toolbar>
   </q-layout>
 </template>
 
@@ -43,8 +37,10 @@
     QIcon,
     QItemSide,
     QItemMain,
-    QSideLink,
     QListHeader,
+    QList,
+    QItem,
+    openURL
   } from 'quasar'
 
   export default {
@@ -56,8 +52,15 @@
       QIcon,
       QItemSide,
       QItemMain,
-      QSideLink,
-      QListHeader
+      QListHeader,
+      QList,
+      QItem
+    },
+
+    methods: {
+      launch (url) {
+        openURL(url)
+      }
     }
   }
 </script>
