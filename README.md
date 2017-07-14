@@ -1,22 +1,19 @@
-# personal-blog
+# Quasar App
 
-> Personal Blog
+> A Quasar project
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ npm install # Or yarn install
+$ npm install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+# serve with hot reload at localhost:8080
+$ quasar dev
 
-# build for production and launch server
-$ npm run build
-$ npm start
+# build for production with minification
+$ quasar build
 
-# generate static project
-$ npm run generate
+# lint code
+$ quasar lint
 ```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
