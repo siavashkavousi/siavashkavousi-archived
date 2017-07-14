@@ -29,13 +29,13 @@
       </q-card-title>
       <q-card-main>
         <q-list>
+          <q-item>Distributed Processing</q-item>
+          <q-item>Cloud Computing</q-item>
+          <q-item>Linux Technologies</q-item>
           <q-item>Machine Learning</q-item>
           <q-item>Computer Vision</q-item>
           <q-item>Convolutional Neural Networks</q-item>
           <q-item>Deep Learning</q-item>
-          <q-item>Statistics</q-item>
-          <q-item>Linear Algebra</q-item>
-          <q-item>Distributed Processing</q-item>
         </q-list>
       </q-card-main>
 
@@ -52,6 +52,19 @@
       </q-card-title>
       <q-card-main>
         <q-list>
+          <q-item>
+            <strong class="text-orange-9">Web Development</strong>
+            <section>
+              <em class="text-blue-7">Projects</em>
+              <div class="pl-3">Developing <strong>MOOC</strong> (massive open online courses) platform</div>
+              <div class="pl-3">Developing a customized version of Apache Ofbiz named Redon based on the
+                needs of a customer (Iran-NGK Spark Plug Supplier) in HISIS (Hoonam Intelligent Secure Integrated
+                Systems) Company
+              </div>
+              <em class="text-blue-7">Libraries and frameworks</em>
+              <div class="pl-3">Django, Vue.js(MVVM), Webpack, Polymer, Express, Laravel, Backbone</div>
+            </section>
+          </q-item>
           <q-item>
             <strong class="text-orange-9">Data Mining and Machine Learning</strong>
             <section>
@@ -71,20 +84,6 @@
               <div class="pl-3">Tensorflow, Keras, Scipy, Scikit, Pandas, Apache Spark, XGBoost, Jupyter Notebook</div>
               <em class="text-blue-7">Challenges</em>
               <div class="pl-3">Fanavard 2016 (data mining national challenge)</div>
-            </section>
-          </q-item>
-          <q-item>
-            <strong class="text-orange-9">Web Development</strong>
-            <section>
-              <em class="text-blue-7">Projects</em>
-              <!--<div>Customizing <strong>OpenEdx</strong> platform in order to use in our university</div>-->
-              <div class="pl-3">Developing <strong>MOOC</strong> (massive open online courses) platform</div>
-              <div class="pl-3">Developing a customized version of Apache Ofbiz named Redon based on the
-                needs of a customer (Iran-NGK Spark Plug Supplier) in HISIS (Hoonam Intelligent Secure Integrated
-                Systems) Company
-              </div>
-              <em class="text-blue-7">Libraries and frameworks</em>
-              <div class="pl-3">Django, Backbone, Polymer, Laravel</div>
             </section>
           </q-item>
           <q-item>
@@ -113,18 +112,17 @@
         </q-list>
       </q-card-main>
 
-
       <q-card-title class="text-secondary">
         <h3>Teaching Experiences & Presentations</h3>
       </q-card-title>
       <q-card-main>
         <q-list>
           <q-item>
-            <strong class="text-orange-9">Presentation in 8th Amirkabir Linux Festival - July 2016 (<strong>Technical Commitee</strong>)</strong>
-            <ul>
-              <li>Introduction to Linux</li>
-              <li>Intermediate and advanced bash programming</li>
-            </ul>
+            <strong class="text-orange-9 mb-0">Presentation in 8th Amirkabir Linux Festival - July 2016 (<strong>Technical Commitee</strong>)</strong>
+            <q-list no-border dense>
+              <q-item>Introduction to Linux</q-item>
+              <q-item>Intermediate and advanced bash programming</q-item>
+            </q-list>
           </q-item>
           <q-item>
             <strong class="text-orange-9">MongoDB introduction</strong>
@@ -236,7 +234,8 @@
             <strong>Internet Engineering (Web Development)</strong>
             <a href="https://github.com/siavashkavousi/IE-course"></a>
             <div>
-              Develops AUT studio (game portal) using <strong>Laravel</strong> as backend and <strong>Polymer</strong>framework as frontend
+              Develops AUT studio (game portal) using <strong>Laravel</strong> as backend and <strong>Polymer</strong>
+              framework as frontend
             </div>
           </q-item>
         </q-list>
@@ -250,23 +249,29 @@
           <q-item>
             <strong>Machine Learning</strong>
             <a href="https://github.com/siavashkavousi/ML-course"></a>
+            <div>Offered by Prof. Ng (Stanford University) – Grade=100%</div>
           </q-item>
-          Offered by Prof. Ng (Stanford University) – Grade=100%
 
           <q-item>
             <strong>Convolutional Neural Networks for Visual Recognition</strong>
             <a href="https://github.com/siavashkavousi/CNN-course"></a>
+            <div>Offered by Prof. Fei Fei Li (Stanford University)</div>
           </q-item>
-          Offered by Prof. Fei Fei Li (Stanford University)
 
-          <q-item><strong>Introduction to Apache Spark</strong></q-item>
-          Offered by Prof. Anthony D. Joseph (UC Berkeley) - edx.org
+          <q-item>
+            <strong>Introduction to Apache Spark</strong>
+            <div>Offered by Prof. Anthony D. Joseph (UC Berkeley) - edx.org</div>
+          </q-item>
 
-          <q-item><strong>Big Data Analysis with Apache Spark</strong></q-item>
-          Offered by Prof. Anthony D. Joseph (UC Berkeley) - edx.org
+          <q-item>
+            <strong>Big Data Analysis with Apache Spark</strong>
+            <div>Offered by Prof. Anthony D. Joseph (UC Berkeley) - edx.org</div>
+          </q-item>
 
-          <q-item><strong>Applied Data Science with Python - currently</strong></q-item>
-          University of Michigan - Coursera
+          <q-item>
+            <strong>Applied Data Science with Python - currently</strong>
+            <div>University of Michigan - Coursera</div>
+          </q-item>
         </q-list>
       </q-card-main>
 
@@ -277,7 +282,8 @@
         <q-list>
           <q-item>
             <strong>Programming</strong>
-            <div>Experienced in Python, Matlab, JAVA, C/C++, Bash, Kotlin, Android, PHP, HTML, JavaScript, Groovy, CSS, Sass
+            <div>Experienced in Python, JavaScript, Matlab, JAVA, C/C++, Bash,
+              Kotlin, Android, PHP, HTML, Groovy, CSS, Sass, Stylus
             </div>
             <div>Familiar with C#, VHDL, Assembly, FTL, SystemVerilog</div>
           </q-item>
@@ -289,22 +295,24 @@
 
           <q-item>
             <strong>Typesetting</strong>
-            <div><i class="glyphicon glyphicon-text-height"></i> LATEX, Microsoft Word</div>
+            <div>LATEX, Microsoft Word</div>
           </q-item>
 
           <q-item>
-            <strong>Language</strong>
-            <ul>
-              <li>Farsi (Persian) : Native</li>
-              <li>English : Fluent</li>
-            </ul>
+            <strong class="mb-0">Language</strong>
+            <q-list no-border dense>
+              <q-item>Farsi (Persian) : Native</q-item>
+              <q-item>English : Fluent</q-item>
+            </q-list>
           </q-item>
         </q-list>
       </q-card-main>
       <q-card-title class="text-secondary">
         <h3>References</h3>
       </q-card-title>
-      <q-card-main>References are available upon request</q-card-main>
+      <q-card-main>
+        <strong class="pl-3">References are available upon request</strong>
+      </q-card-main>
     </q-card>
   </div>
 </template>
@@ -335,4 +343,7 @@
   .q-item
     flex-direction: column
     align-items flex-start
+
+  strong
+    margin-bottom 0.5rem
 </style>
