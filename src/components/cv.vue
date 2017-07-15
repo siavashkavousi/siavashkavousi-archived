@@ -14,7 +14,6 @@
             <div>Bachelor of Science – Enrolled September 2013</div>
             <div>Last year: 18.07/20</div>
             <div>Cumulative Grade Average: 15.5/20 (109/140 Units)</div>
-            <!--<div>Major Grade Average: 15.62/20</div>-->
           </q-item>
           <q-item>
             <strong class="text-orange-9">Farabi High School – Gonbad-e-Qabus</strong>
@@ -125,10 +124,13 @@
             </q-list>
           </q-item>
           <q-item>
+            <strong class="text-orange-9">Time Series Analysis</strong>
+            <div class="pl-3">Data Mining - June 2017</div>
+          </q-item>
+          <q-item>
             <strong class="text-orange-9">MongoDB introduction</strong>
             <div class="pl-3">Database Design Lab - November 2016</div>
           </q-item>
-
           <q-item>
             <strong class="text-orange-9">An Introduction to TensorFlow</strong>
             <div class="pl-3">8th Amirkabir Linux Festival - July 2016</div>
@@ -197,31 +199,39 @@
             <strong>Operating Systems</strong>
             <div>
               Adds process suspend and resume to <strong>XV6 MIT OS</strong>
-              <a href="https://github.com/siavashkavousi/xv6-public"></a>
+              <image-link src="https://github.com/siavashkavousi/xv6-public"></image-link>
             </div>
           </q-item>
 
           <q-item>
             <strong>Convolutional Neural Networks for Visual Recognition</strong>
-            <a href="https://github.com/siavashkavousi/CNN-course"></a>
             <div>Develops K-NN, Softmax, SVM and 2-Layer Neural Net classifier using Python
               Develops CNN classifier using Python
+              <image-link src="https://github.com/siavashkavousi/CNN-course"></image-link>
             </div>
           </q-item>
 
           <q-item>
-            <strong>Principles of Database Design</strong>
-            <a href="https://github.com/siavashkavousi/DB-course"></a>
-            Implements an online music store database using MySQL
-            <a href="https://github.com/siavashkavousi/MusicStoreDB"></a>
-            Develops Messenger application (client/server, JavaFX for GUI, MongoDB for
-            database)
-            <a href="https://github.com/siavashkavousi/Messenger"></a>
+            <strong>
+              Principles of Database Design
+              <image-link src="https://github.com/siavashkavousi/DB-course"></image-link>
+            </strong>
+            <div>
+              Implements an online music store database using MySQL
+              <image-link src="https://github.com/siavashkavousi/MusicStoreDB"></image-link>
+            </div>
+            <div>
+              Develops Messenger application (client/server, JavaFX for GUI, MongoDB for
+              database)
+              <image-link src="https://github.com/siavashkavousi/Messenger"></image-link>
+            </div>
           </q-item>
 
           <q-item>
-            <strong>Microprocessors</strong>
-            <a href="https://github.com/siavashkavousi/MP-course"></a>
+            <strong>
+              Microprocessors
+              <image-link src="https://github.com/siavashkavousi/MP-course"></image-link>
+            </strong>
             <div>Implements range finder with SRF02 sensor and AT-mega16 microcontroller using C</div>
           </q-item>
 
@@ -231,8 +241,10 @@
           </q-item>
 
           <q-item>
-            <strong>Internet Engineering (Web Development)</strong>
-            <a href="https://github.com/siavashkavousi/IE-course"></a>
+            <strong>
+              Internet Engineering (Web Development)
+              <image-link src="https://github.com/siavashkavousi/IE-course"></image-link>
+            </strong>
             <div>
               Develops AUT studio (game portal) using <strong>Laravel</strong> as backend and <strong>Polymer</strong>
               framework as frontend
@@ -247,14 +259,18 @@
       <q-card-main>
         <q-list>
           <q-item>
-            <strong>Machine Learning</strong>
-            <a href="https://github.com/siavashkavousi/ML-course"></a>
+            <strong>
+              Machine Learning
+              <image-link src="https://github.com/siavashkavousi/ML-course"></image-link>
+            </strong>
             <div>Offered by Prof. Ng (Stanford University) – Grade=100%</div>
           </q-item>
 
           <q-item>
-            <strong>Convolutional Neural Networks for Visual Recognition</strong>
-            <a href="https://github.com/siavashkavousi/CNN-course"></a>
+            <strong>
+              Convolutional Neural Networks for Visual Recognition
+              <image-link src="https://github.com/siavashkavousi/CNN-course"></image-link>
+            </strong>
             <div>Offered by Prof. Fei Fei Li (Stanford University)</div>
           </q-item>
 
@@ -326,6 +342,7 @@
     QList,
     QItem
   } from 'quasar'
+  import ImageLink from 'components/image-link'
 
   export default {
     components: {
@@ -334,7 +351,8 @@
       QCardMain,
       QIcon,
       QList,
-      QItem
+      QItem,
+      ImageLink
     }
   }
 </script>
