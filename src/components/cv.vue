@@ -56,9 +56,14 @@
             <section>
               <em class="text-blue-7">Projects</em>
               <div class="pl-3">Developing <strong>MOOC</strong> (massive open online courses) platform</div>
-              <div class="pl-3">Developing a customized version of Apache Ofbiz named Redon based on the
-                needs of a customer (Iran-NGK Spark Plug Supplier) in HISIS (Hoonam Intelligent Secure Integrated
-                Systems) Company
+              <div class="pl-3">
+                Developed a customized version of Apache Ofbiz named Redon based on the
+                needs of a customer (Iran-NGK Spark Plug Supplier) in HISIS (Hoonam Intelligent
+                Secure Integrated Systems) Company
+              </div>
+              <div class="pl-3">
+                Developed support system (ticketing) for <strong>AUT</strong> university in AUTRD Team
+                (It's not available outside university <a href="https://support.aut.ac.ir">support</a>)
               </div>
               <em class="text-blue-7">Libraries and frameworks</em>
               <div class="pl-3">Django, Vue.js(MVVM), Webpack, Polymer, Express, Laravel, Backbone</div>
@@ -298,8 +303,12 @@
         <q-list>
           <q-item>
             <strong>Programming</strong>
-            <div>Experienced in Python, JavaScript, Matlab, JAVA, C/C++, Bash,
-              Kotlin, Android, PHP, HTML, Groovy, CSS, Sass, Stylus
+            <div class="row">
+              Experienced in Python
+              <q-icon name="favorite" color="red" class="pl-1"></q-icon>
+              , JavaScript
+              <q-icon name="favorite" color="red" class="pl-1"></q-icon>
+              , Matlab, JAVA, C/C++, Bash, Kotlin, Android, PHP, HTML, Groovy, CSS, Sass, Stylus
             </div>
             <div>Familiar with C#, VHDL, Assembly, FTL, SystemVerilog</div>
           </q-item>
