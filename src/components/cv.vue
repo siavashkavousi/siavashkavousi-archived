@@ -62,8 +62,8 @@
                 Secure Integrated Systems) Company
               </div>
               <div class="pl-3">
-                Developed support system (ticketing) for <strong>AUT</strong> university in AUTRD Team
-                (It's not available outside university <a href="https://support.aut.ac.ir">support</a>)
+                Developed <a href="https://support.aut.ac.ir">support</a> system (ticketing) for <strong>AUT</strong> university in AUTRD Team
+                with the latest PWA standards
               </div>
               <em class="text-blue-7">Libraries and frameworks</em>
               <div class="pl-3">Django, Vue.js(MVVM), Webpack, Polymer, Express, Laravel, Backbone</div>
