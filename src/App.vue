@@ -24,25 +24,21 @@
       </div>
     </q-toolbar>
 
-    <div class="column items-center portfolio my-5">
-      <h3 class="portfolio__title">PORTFOLIO</h3>
-
+    <div class="layout-padding column items-center portfolio mb-5">
+      <h3 class="header__item__title mb-4">PORTFOLIO</h3>
       <div style="width: 500px;">
-        <q-gallery-carousel :src="gallery" horizontal-quick-view/>
+        <gallery :src="gallery" horizontal-quick-view/>
       </div>
-      <!--<q-carousel arrows dots class="text-white">-->
-      <!--<div slot="slide" class="bg-primary">-->
-      <!--<div class="portfolio__support"></div>-->
-      <!--</div>-->
-      <!--<div slot="slide" class="bg-secondary">-->
-      <!--Slide 2-->
-      <!--</div>-->
-      <!--</q-carousel>-->
     </div>
 
-    <div class="layout-padding">
-      <router-view/>
-    </div>
+    <q-parallax class="layout-padding" src="statics/experience.jpg">
+      <div class="row justify-center items-center experience mb-5 fit">
+        <h3 class="header__item__title text-orange-5">EXPERIENCE</h3>
+        <time-line :points="points"></time-line>
+      </div>
+    </q-parallax>
+
+    <router-view/>
   </q-layout>
 </template>
 
@@ -52,9 +48,11 @@
     QToolbar,
     QAjaxBar,
     QParallax,
-    QCarousel,
-    QGalleryCarousel
+    QList,
+    QItem
   } from 'quasar'
+  import Gallery from '@/gallery'
+  import TimeLine from '@/time-line'
 
   export default {
     components: {
@@ -62,14 +60,27 @@
       QToolbar,
       QAjaxBar,
       QParallax,
-      QCarousel,
-      QGalleryCarousel
+      Gallery,
+      QList,
+      QItem,
+      TimeLine,
     },
     data () {
       return {
         gallery: [
-          'statics/projects/support.png',
-          'statics/projects/portal.png',
+          {link: 'https://support.aut.ac.ir', img: 'statics/projects/support.png'},
+          {link: 'http://portal2.cloud.aut.ac.ir', img: 'statics/projects/portal.png'},
+        ],
+        points: [
+          {
+            pointColor: 'red', // important! the color of every time point and you can use red yellow or green *关键点颜色 可选red yellow green
+            img: 'http://www.jikexueyuan.com/event/static/images/bootstrap/bootstrap-logo.png', // img url for every time point 图片地址 可留空
+            title: 'hello world', // important! title *时间点标题
+            text: 'first post', // important! the content you want show *时间点内容
+            linkUrl: 'https://www.google.com', // url for read more 链接url 留空则不显示按钮
+            linkText: 'Read detail', // show what in read for more button 按钮显示内容 默认为Read more
+            date: '2017-1-1' // time of the point 时间点
+          },
         ],
       }
     },
@@ -115,14 +126,6 @@
     & > *
       padding-right 10px
 
-  .portfolio
-    /*background-color #B8CEF1*/
-  .portfolio__title
+  .header__item__title
     font-weight bold
-
-  .portfolio__support
-    /*background url("statics/projects/support.png")*/
-    width 400px
-    height 300px
-    background-size cover
 </style>
