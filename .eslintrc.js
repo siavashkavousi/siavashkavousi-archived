@@ -25,6 +25,7 @@ module.exports = {
     'arrow-parens': 0,
     'one-var': 0,
     'import/first': 0,
+    'comma-dangle': [2, 'only-multiline'],
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'brace-style': [2, 'stroustrup', { 'allowSingleLine': true }]
