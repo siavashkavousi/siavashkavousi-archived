@@ -31,10 +31,9 @@
           <q-item>Distributed Processing</q-item>
           <q-item>Cloud Computing</q-item>
           <q-item>Linux Technologies</q-item>
+          <q-item>Web Development</q-item>
           <q-item>Machine Learning</q-item>
           <q-item>Computer Vision</q-item>
-          <q-item>Convolutional Neural Networks</q-item>
-          <q-item>Deep Learning</q-item>
         </q-list>
       </q-card-main>
 
@@ -57,16 +56,19 @@
               <em class="text-blue-7">Projects</em>
               <div class="pl-3">Developing <strong>MOOC</strong> (massive open online courses) platform</div>
               <div class="pl-3">
-                Developed a customized version of Apache Ofbiz named Redon based on the
-                needs of a customer (Iran-NGK Spark Plug Supplier) in HISIS (Hoonam Intelligent
-                Secure Integrated Systems) Company
+                Developing <a href="http://portal2.cloud.aut.ac.ir">research portal</a> for <strong>AUT</strong> university in AUTPortal Team
               </div>
               <div class="pl-3">
                 Developed <a href="https://support.aut.ac.ir">support</a> system (ticketing) for <strong>AUT</strong> university in AUTRD Team
                 with the latest PWA standards
               </div>
+              <div class="pl-3">
+                Developed a customized version of Apache Ofbiz named Redon based on the
+                needs of a customer (Iran-NGK Spark Plug Supplier) in HISIS (Hoonam Intelligent
+                Secure Integrated Systems) Company
+              </div>
               <em class="text-blue-7">Libraries and frameworks</em>
-              <div class="pl-3">Django, Vue.js(MVVM), Webpack, Polymer, Express, Laravel, Backbone</div>
+              <div class="pl-3">Django, Vue.js(+nuxt.js), Node(Hapi.js), Webpack, Polymer, Laravel, Backbone</div>
             </section>
           </q-item>
           <q-item>
@@ -75,6 +77,7 @@
               <em class="text-blue-7">Applications</em>
               <div class="pl-3">
                 <div>Developing <strong>license plate recognizer</strong> for iranian car plates - In progress!</div>
+                <div>Ranked 29th in <strong>DMC 2017</strong> competition</div>
                 <div>Developing and testing <strong>DMC 2016</strong> problem with XGBoost, Keras, and Pandas</div>
                 <div>Working with Apache Sparks in
                   <strong>Introduction to Apache Spark</strong>,
@@ -88,6 +91,7 @@
               <div class="pl-3">Tensorflow, Keras, Scipy, Scikit, Pandas, Apache Spark, XGBoost, Jupyter Notebook</div>
               <em class="text-blue-7">Challenges</em>
               <div class="pl-3">Fanavard 2016 (data mining national challenge)</div>
+              <div class="pl-3">DMC 2017</div>
             </section>
           </q-item>
           <q-item>
@@ -101,7 +105,7 @@
                 </q-item>
                 <q-item>
                   <div>DubsmashFa&nbsp;</div>
-                  <div>(Android application similar to Dubsmash but in Persian)</div>
+                  <div>(Android application similar to Dubsmash but in Persian, note that we decided to discontinue it's development at that time)</div>
                 </q-item>
               </q-list>
               <em class="text-blue-7">Libraries and frameworks</em>
@@ -122,7 +126,25 @@
       <q-card-main>
         <q-list>
           <q-item>
-            <strong class="text-orange-9 mb-0">Presentation in 8th Amirkabir Linux Festival - July 2016 (<strong>Technical Commitee</strong>)</strong>
+            <strong class="text-orange-9 mb-0">Internet Engineering (Web development)</strong>
+            <q-list no-border dense>
+              <q-item>Teaching Assistant (Spring 2017) - Dr. Bakhshi</q-item>
+            </q-list>
+          </q-item>
+          <q-item>
+            <strong class="text-orange-9 mb-0">Computer Architecture</strong>
+            <q-list no-border dense>
+              <q-item>Teaching Assistant (Spring 2017) - Dr. Shiri</q-item>
+            </q-list>
+          </q-item>
+          <q-item>
+            <strong class="text-orange-9 mb-0">Principles of programming</strong>
+            <q-list no-border dense>
+              <q-item>Teaching Assistant (Spring 2017) - Dr. Nazerfard</q-item>
+            </q-list>
+          </q-item>
+          <q-item>
+            <strong class="text-orange-9 mb-0">Presentation in 8th Amirkabir Linux Festival - July 2016 (Technical Commitee)</strong>
             <q-list no-border dense>
               <q-item>Introduction to Linux</q-item>
               <q-item>Intermediate and advanced bash programming</q-item>
@@ -304,9 +326,9 @@
           <q-item>
             <strong>Programming</strong>
             <div class="row">
-              Experienced in Python
+              Experienced in JavaScript (Fullstack vue.js + hapi.js)
               <q-icon name="favorite" color="red" class="pl-1"></q-icon>
-              , JavaScript
+              , Python
               <q-icon name="favorite" color="red" class="pl-1"></q-icon>
               , Matlab, JAVA, C/C++, Bash, Kotlin, Android, PHP, HTML, Groovy, CSS, Sass, Stylus
             </div>
